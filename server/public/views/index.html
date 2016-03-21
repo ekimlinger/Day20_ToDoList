@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Evan's Task Manager</title>
+    <script type="text/javascript" src="/vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/styles/stylesheet.css" />
+
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="container jumbotron">
+      <h1>Evan's Task Manager</h1>
+    </div>
+
+    <div class="container">
+      <form id="task-submit-form">
+        <h2>Create a New Task:</h2>
+        <input class="col-xs-12 col-md-12 col-sm-12" type="text" name="task_name" id="task-name" placeholder="Task Name" maxlength="100"required>
+        <input class="col-xs-12 col-md-12 col-sm-12" type="text" name="task_description" id="task-description" placeholder="Description" maxlength="160" required>
+
+        <input class="btn col-xs-4 col-sm-4 col-md-4" type="submit" name="name" value="Enter Task">
+      </form>
+    </div>
+
+    <div class="container jumbotron display-area">
+      <h2 class="title">Current Tasks</h2>
+      <div class="list">
+
+      </div>
+    </div>
+  </body>
+</html>

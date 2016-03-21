@@ -1,0 +1,63 @@
+body{
+    background: #1C344C;
+}
+.jumbotron h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: black 2px 2px;
+}
+.container{
+    margin-bottom: 60px;
+}
+form input{
+    margin-bottom: 10px;
+}
+#task-description{
+    height: 100px;
+}
+.jumbotron{
+    background: #39B2B2;
+}
+
+.display-area{
+  background: #287D7D;
+}
+h2{
+  margin: 10px 0;
+  border-bottom: 1px solid;
+  padding-bottom: 5px
+}
+form h2, .title{
+  color: white;
+  text-shadow: black 2px 2px;
+}
+.btn{
+    display:block;
+    background: linear-gradient(#F1F3CE, #C6E070);
+      border: none;
+}
+.delete{
+  background: linear-gradient(rgb(250,220,220),tomato);
+
+}
+.task{
+    background: linear-gradient(#C6E070,#91C46C);
+    box-shadow: #000 2px 2px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    color: black;
+    text-wrap: initial;
+}
+span{
+  float: right;
+  margin-top: -5px;
+}
+.task button{
+  height: inherit;
+  display: inline-block;
+  margin: 0 5px 5px 5px;
+}
+.completed {
+  background: rgb(60,100,80);
+}

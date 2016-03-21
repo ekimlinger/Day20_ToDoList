@@ -1,0 +1,33 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "Create a front end experience that allows a user to create a task. When the task is created, it should be stored inside of a database (SQL) Whenever a task is created the front end should refresh to show all tasks that need to be completed. Each task should have an option to 'Complete' or 'Delete'. When a task is complete, its visual representation should change on the front end (for example, the background of the task container could change from gray to green, as well as the complete option 'checked off'. Each of these are accomplished in CSS, but will need to hook into logic to know whether or not the task is complete) Whether or not a task is complete should also be stored in the database. Deleting a task should remove it both from the Front End as well as the Database. Make sure that you also show us your best styling chops. We encourage you to try and write pure CSS rather than use Bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Evan Kimlinger",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "jquery": "^2.2.2",
+    "path": "^0.12.7",
+    "pg": "^4.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekimlinger/Day20_ToDoList.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ekimlinger/Day20_ToDoList/issues"
+  },
+  "homepage": "https://github.com/ekimlinger/Day20_ToDoList#readme"
+}
